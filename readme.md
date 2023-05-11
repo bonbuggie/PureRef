@@ -23,8 +23,7 @@
 3. Click on "Colors" tab
 4. Choose desired theme (Custom#)
 ___
-### _Alternative_ Theme Installation
-
+### Custom Theme Installation
 #### *Preferred method if you want to preserve your previous settings/themes*
 
 1. Open <kbd>PureRef.ini</kbd> in <kbd>[/home/user/.config](https://www.pureref.com/handbook/settings)</kbd>
@@ -39,9 +38,8 @@ ___
 2. Open [PureRef](https://www.pureref.com) to access the settings menu (Ctl+U)
 3. Click on "Colors" tab
 4. Choose desired theme (Custom#)
-
-### _Alternative_ Theme Installation
-
+___
+### Custom Theme Installation
 #### *Preferred method if you want to preserve your previous settings/themes*
 
 1. Open <kbd>PureRef.ini</kbd> in <kbd>[%APPDATA% ( \Users\username\AppData\Roaming )](https://www.pureref.com/handbook/settings)</kbd>
@@ -64,7 +62,7 @@ Custom1\Selection_Color=@Variant(\0\0\0\x43\x1\xff\xff\x31\x31tt\x8f\x8f\0\0)
 Custom1\Text_Color=@Variant(\0\0\0\x43\x1\xff\xff\xe0\xe0\xde\xde\xf4\xf4\0\0)
 Custom1\Text_Hover_Color=@Variant(\0\0\0\x43\x1\xff\xff\xeb\xeboo\x92\x92\0\0)
 ```
-
+___
 ### Rosé Pine Moon (Custom2)
 ```ini
 Custom2\Background_Color=@Variant(\0\0\0\x43\x1\xff\xff##!!66\0\0)
@@ -79,7 +77,7 @@ Custom2\Selection_Color=@Variant(\0\0\0\x43\x1\xff\xff\xc4\xc4\xa7\xa7\xe7\xe7\0
 Custom2\Text_Color=@Variant(\0\0\0\x43\x1\xff\xff\xe0\xe0\xde\xde\xf4\xf4\0\0)
 Custom2\Text_Hover_Color=@Variant(\0\0\0\x43\x1\xff\xff\xea\xea\x9a\x9a\x97\x97\0\0)
 ```
-
+___
 ### Rosé Pine Dawn (Custom3)
 ```ini
 Custom3\Background_Color=@Variant(\0\0\0\x43\x1\xff\xff\xff\xff\xfa\xfa\xf3\xf3\0\0)
