@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for PureRef</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,33 +13,93 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+# Linux
+### Fresh Theme Installation
 
-## Gallery
+#### **Important Notice:** *will not preserve your previous settings! **WILL WIPE ALL DATA!***
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+1. Copy downloaded <kbd>PureRef.ini</kbd> into <kbd>/home/user/.config</kbd>
+2. Open PureRef to access the settings menu (Ctl+U)
+3. Click on "Colors" tab
+4. Choose desired theme (Custom#)
+___
+### _Alternative_ Theme Installation
 
-## Thanks to
+#### *Preferred method if you want to preserve your previous settings/themes*
 
-- [You, it's you!](https://github.com/<username>)
+1. Open <kbd>PureRef.ini</kbd> in <kbd>/home/user/.config</kbd>
+2. Copy desired theme code and paste into <kbd>PureRef.ini</kbd>
+___
+# Windows
 
-## Contributing
+### Fresh Theme Installation
 
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
+#### **Important Notice:** *will not preserve your previous settings! **WILL WIPE ALL DATA!***
 
-Modify `template.json` using Rosé Pine variables, then build variants:
+1. Copy downloaded <kbd>PureRef.ini</kbd> into <kbd>%APPDATA% ( \Users\username\AppData\Roaming )</kbd>
+2. Open PureRef to access the settings menu (Ctl+U)
+3. Click on "Colors" tab
+4. Choose desired theme (Custom#)
 
-```sh
-npx @rose-pine/build@latest
+### _Alternative_ Theme Installation
+
+#### *Preferred method if you want to preserve your previous settings/themes*
+
+1. Open <kbd>PureRef.ini</kbd> in <kbd>%APPDATA% ( \Users\username\AppData\Roaming )</kbd>
+2. Copy desired theme code and paste into <kbd>PureRef.ini</kbd>
+___
+# Theme Codes
+#### Note: if <kbd>(Custom#)</kbd> theme is different from listed below, make sure to rename Custom#/ lines to match with new <kbd>(Custom#)</kbd> theme
+
+### Rosé Pine (Custom1)
+```ini
+Custom1\Background_Color=@Variant(\0\0\0\x43\x1\xff\xff\x19\x19\x17\x17$$\0\0)
+Custom1\Border_Color=@Variant(\0\0\0\x43\x1\xff\xff\x1f\x1f\x1d\x1d..\0\0)
+Custom1\Font=@Variant(\0\0\0@\0\0\0\xe\0R\0\x61\0l\0\x65\0w\0\x61\0y@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\0)
+Custom1\MasterOpacity=1
+Custom1\Menu_Background_Color=@Variant(\0\0\0\x43\x1\xff\xff&&##::\0\0)
+Custom1\Menu_Border_Color=@Variant(\0\0\0\x43\x1\xff\xff\x1f\x1f\x1d\x1d..\0\0)
+Custom1\Secondary_Background_Color=@Variant(\0\0\0\x43\x1\xff\xff\x1f\x1f\x1d\x1d..\0\0)
+Custom1\Secondary_Text_Color=@Variant(\0\0\0\x43\x1\xff\xff\x90\x90\x8c\x8c\xaa\xaa\0\0)
+Custom1\Selection_Color=@Variant(\0\0\0\x43\x1\xff\xff\x31\x31tt\x8f\x8f\0\0)
+Custom1\Text_Color=@Variant(\0\0\0\x43\x1\xff\xff\xe0\xe0\xde\xde\xf4\xf4\0\0)
+Custom1\Text_Hover_Color=@Variant(\0\0\0\x43\x1\xff\xff\xeb\xeboo\x92\x92\0\0)
 ```
 
-## Style guide
+### Rosé Pine Moon (Custom2)
+```ini
+Custom2\Background_Color=@Variant(\0\0\0\x43\x1\xff\xff##!!66\0\0)
+Custom2\Border_Color=@Variant(\0\0\0\x43\x1\xff\xff**''??\0\0)
+Custom2\Font=@Variant(\0\0\0@\0\0\0\xe\0R\0\x61\0l\0\x65\0w\0\x61\0y@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\0)
+Custom2\MasterOpacity=1
+Custom2\Menu_Background_Color=@Variant(\0\0\0\x43\x1\xff\xff**''??\0\0)
+Custom2\Menu_Border_Color=@Variant(\0\0\0\x43\x1\xff\xff\x39\x39\x35\x35RR\0\0)
+Custom2\Secondary_Background_Color=@Variant(\0\0\0\x43\x1\xff\xff\x39\x39\x35\x35RR\0\0)
+Custom2\Secondary_Text_Color=@Variant(\0\0\0\x43\x1\xff\xff\x90\x90\x8c\x8c\xaa\xaa\0\0)
+Custom2\Selection_Color=@Variant(\0\0\0\x43\x1\xff\xff\xc4\xc4\xa7\xa7\xe7\xe7\0\0)
+Custom2\Text_Color=@Variant(\0\0\0\x43\x1\xff\xff\xe0\xe0\xde\xde\xf4\xf4\0\0)
+Custom2\Text_Hover_Color=@Variant(\0\0\0\x43\x1\xff\xff\xea\xea\x9a\x9a\x97\x97\0\0)
+```
 
-> Be sure to remove this section 😌
+### Rosé Pine Dawn (Custom3)
+```ini
+Custom3\Background_Color=@Variant(\0\0\0\x43\x1\xff\xff\xff\xff\xfa\xfa\xf3\xf3\0\0)
+Custom3\Border_Color=@Variant(\0\0\0\x43\x1\xff\xff\xce\xce\xca\xca\xcd\xcd\0\0)
+Custom3\Font=@Variant(\0\0\0@\0\0\0\xe\0R\0\x61\0l\0\x65\0w\0\x61\0y@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\0)
+Custom3\MasterOpacity=1
+Custom3\Menu_Background_Color=@Variant(\0\0\0\x43\x1\xff\xff\xfa\xfa\xf4\xf4\xed\xed\0\0)
+Custom3\Menu_Border_Color=@Variant(\0\0\0\x43\x1\xff\xff\xf2\xf2\xe9\xe9\xe1\xe1\0\0)
+Custom3\Secondary_Background_Color=@Variant(\0\0\0\x43\x1\xff\xff\xf2\xf2\xe9\xe9\xe1\xe1\0\0)
+Custom3\Secondary_Text_Color=@Variant(\0\0\0\x43\x1\xff\xffyyuu\x93\x93\0\0)
+Custom3\Selection_Color=@Variant(\0\0\0\x43\x1\xff\xffVV\x94\x94\x9f\x9f\0\0)
+Custom3\Text_Color=@Variant(\0\0\0\x43\x1\xff\xffWWRRyy\0\0)
+Custom3\Text_Hover_Color=@Variant(\0\0\0\x43\x1\xff\xff\xd7\xd7\x82\x82~~\0\0)
+```
+___
+## Thanks to
 
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [bonbuggie](https://github.com/<bonbuggie>)
+
+<p align="center">
+<img src="https://rose-pine-images.vercel.app/PureRef.png?theme=default" />
+    </p>
