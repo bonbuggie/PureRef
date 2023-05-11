@@ -14,12 +14,12 @@
 ## Usage
 
 # Linux
-### Fresh Theme Installation
-
+### Simple Theme Installation
+**Will come with all 3 themes already added**
 #### **Important Notice:** *will not preserve your previous settings! **WILL WIPE ALL DATA!***
 
-1. Copy downloaded <kbd>PureRef.ini</kbd> into <kbd>/home/user/.config</kbd>
-2. Open PureRef to access the settings menu (Ctl+U)
+1. Copy downloaded <kbd>PureRef.ini</kbd> into <kbd>[/home/user/.config](https://www.pureref.com/handbook/settings)</kbd>
+2. Open [PureRef](https://www.pureref.com) to access the settings menu (Ctl+U)
 3. Click on "Colors" tab
 4. Choose desired theme (Custom#)
 ___
@@ -27,17 +27,16 @@ ___
 
 #### *Preferred method if you want to preserve your previous settings/themes*
 
-1. Open <kbd>PureRef.ini</kbd> in <kbd>/home/user/.config</kbd>
+1. Open <kbd>PureRef.ini</kbd> in <kbd>[/home/user/.config](https://www.pureref.com/handbook/settings)</kbd>
 2. Copy desired theme code and paste into <kbd>PureRef.ini</kbd>
 ___
 # Windows
-
-### Fresh Theme Installation
-
+### Simple Theme Installation
+**Will come with all 3 themes already added**
 #### **Important Notice:** *will not preserve your previous settings! **WILL WIPE ALL DATA!***
 
-1. Copy downloaded <kbd>PureRef.ini</kbd> into <kbd>%APPDATA% ( \Users\username\AppData\Roaming )</kbd>
-2. Open PureRef to access the settings menu (Ctl+U)
+1. Copy downloaded <kbd>PureRef.ini</kbd> into <kbd>[%APPDATA% ( \Users\username\AppData\Roaming )](https://www.pureref.com/handbook/settings)</kbd>
+2. Open [PureRef](https://www.pureref.com) to access the settings menu (Ctl+U)
 3. Click on "Colors" tab
 4. Choose desired theme (Custom#)
 
@@ -45,7 +44,7 @@ ___
 
 #### *Preferred method if you want to preserve your previous settings/themes*
 
-1. Open <kbd>PureRef.ini</kbd> in <kbd>%APPDATA% ( \Users\username\AppData\Roaming )</kbd>
+1. Open <kbd>PureRef.ini</kbd> in <kbd>[%APPDATA% ( \Users\username\AppData\Roaming )](https://www.pureref.com/handbook/settings)</kbd>
 2. Copy desired theme code and paste into <kbd>PureRef.ini</kbd>
 ___
 # Theme Codes
